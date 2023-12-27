@@ -5,3 +5,9 @@
 body {
     background-color: #f6f2ea;
 }
+.bg-home {
+    background-image: url("../assets/img/banner.jpg");
+}
+.bg-home2 {
+    background-image: url("../assets/img/banner2.jpg");
+}
