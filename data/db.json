@@ -1,0 +1,22 @@
+{
+    "azure": [
+        {
+            "id": 4001,
+            "title": "Deploy Azure Route Server",
+            "body": "lorem ipsum....",
+            "tags": [
+                "azure", "cloud networking", "networking", "cloud"
+            ]
+        }
+    ],
+    "cisco": [
+        {
+            "id": 5001,
+            "title": "Password recovery on Catalyst 9200 Switches",
+            "body": "lorem ipsum....",
+            "tags": [
+                "networking", "cisco"
+            ]
+        }
+    ]
+}

@@ -6,8 +6,20 @@ body {
     background-color: #f6f2ea;
 }
 .bg-home {
-    background-image: url("../assets/img/banner.jpg");
+    background-image: url("../assets/img/home.jpg");
 }
-.bg-home2 {
-    background-image: url("../assets/img/banner2.jpg");
+.bg-about {
+    background-image: url("../assets/img/about.jpg");
+}
+.bg-microsoft {
+    background-image: url("../assets/img/home.jpg");
+}
+.bg-azure {
+    background-image: url("../assets/img/home.jpg");
+}
+.bg-cisco {
+    background-image: url("../assets/img/home.jpg");
+}
+.bg-windows {
+    background-image: url("../assets/img/home.jpg");
 }
