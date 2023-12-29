@@ -1,20 +1,39 @@
 <template>
     <Header :pageTitle="pageTitle" :titleTag="titleTag" :img="img" />
-    <h1 class="text-4xl">The Cisco Blog</h1>
+    <Body bodyTitle="Recent Articles">
+        <div v-if="error">
+            <p> {{ error }} </p>
+        </div>
+        <div v-else>
+            <div v-if="posts.length">
+                <PostList :posts="posts" />
+            </div>
+            <div v-else>
+                <p class="text-center my-20 text-2xl">Loading...</p>
+            </div>
+        </div>
+    </Body>
 </template>
 
 <script>
 import { ref } from 'vue';
 import Header from '../components/Header.vue'
+import Body from '../components/Body.vue'
+import PostList from '../components/PostList.vue'
+import getPosts from "../composables/getPosts"
 
 export default {
-    components: { Header },
+    components: { Header, Body, PostList },
     setup() {
         const pageTitle = ref('Cisco')
         const titleTag = ref('...the network pioneer')
         const img = ref('bg-home')
+        const category = "cisco"
 
-        return {pageTitle, titleTag, img}
+        const { posts, error, load } = getPosts(category)
+        load()
+
+        return {pageTitle, titleTag, img, posts, error}
     }
 }
 </script>

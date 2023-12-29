@@ -3,9 +3,17 @@
         {
             "id": 4001,
             "title": "Deploy Azure Route Server",
-            "body": "lorem ipsum....",
+            "body": "This article helps you configure Azure Route Server to peer with a Network Virtual Appliance (NVA) in your virtual network using the Azure portal. Azure Route Server will learn routes from the NVA and program them on the virtual machines in the virtual network. Azure Route Server will also advertise the virtual network routes to the NVA. For more information, read Azure Route Server.",
             "tags": [
-                "azure", "cloud networking", "networking", "cloud"
+                "azure ", "cloud networking ", "networking ", "cloud "
+            ]
+        },
+        {
+            "id": 4002,
+            "title": "What is Azure Firewall?",
+            "body": "Azure Firewall is a cloud-native and intelligent network firewall security service that provides the best of breed threat protection for your cloud workloads running in Azure. It's a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability. It provides both east-west and north-south traffic inspection. To learn what's east-west and north-south traffic, see East-west and north-south traffic.",
+            "tags": [
+                "azure ", "cloud networking ", "cloud ", "firewall "
             ]
         }
     ],
@@ -13,9 +21,17 @@
         {
             "id": 5001,
             "title": "Password recovery on Catalyst 9200 Switches",
-            "body": "lorem ipsum....",
+            "body": "You can prevent unauthorized users from reconfiguring your switch and viewing configuration information. Typically, you want network administrators to have access to your switch while you restrict access to users who dial from outside the network through an asynchronous port, connect from outside the network through a serial port, or connect through a terminal or workstation from within the local network.",
             "tags": [
-                "networking", "cisco"
+                "networking ", "cisco ", "password recovery "
+            ]
+        },
+        {
+            "id": 5002,
+            "title": "Basic BGP Configuration",
+            "body": "BGP uses TCP as the transport protocol, on port 179. Two BGP routers form a TCP connection between one another. These routers are peer routers. The peer routers exchange messages to open and confirm the connection parameters. BGP routers exchange network reachability information. This information is mainly an indication of the full paths that a route must take in order to reach the destination network. The paths are BGP AS numbers. This information helps in the construction of a graph of ASs that are loop-free. The graph also shows where to apply routing policies in order to enforce some restrictions on the routing behavior. Any two routers that form a TCP connection in order to exchange BGP routing information are 'peers' or 'neighbors'. BGP peers initially exchange the full BGP routing tables. After this exchange, the peers send incremental updates as the routing table changes. BGP keeps a version number of the BGP table. The version number is the same for all the BGP peers. The version number changes whenever BGP updates the table with routing information changes. The send of keepalive packets ensures that the connection between the BGP peers is alive. Notification packets go out in response to errors or special conditions.",
+            "tags": [
+                "networking ", "cisco ", "routing ", "BGP "
             ]
         }
     ]
