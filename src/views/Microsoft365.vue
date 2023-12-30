@@ -12,7 +12,7 @@ export default {
     setup() {
         const pageTitle = ref('M365')
         const titleTag = ref('...the enterprise standard')
-        const img = ref('bg-home')
+        const img = ref('bg-microsoft')
 
         return {pageTitle, titleTag, img}
     }

@@ -28,7 +28,7 @@ export default {
     setup() {
         const pageTitle = ref('Azure Blog')
         const titleTag = ref('...following cloud trails')
-        const img = ref('bg-home')
+        const img = ref('bg-azure')
         const category = "azure"
 
         const { posts, error, load } = getPosts(category)

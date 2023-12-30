@@ -12,7 +12,7 @@ export default {
     setup() {
         const pageTitle = ref('Windows')
         const titleTag = ref('systems administration')
-        const img = ref('bg-home')
+        const img = ref('bg-windows')
 
         return {pageTitle, titleTag, img}
     }

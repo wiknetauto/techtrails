@@ -27,7 +27,7 @@ export default {
     setup() {
         const pageTitle = ref('Cisco')
         const titleTag = ref('...the network pioneer')
-        const img = ref('bg-home')
+        const img = ref('bg-cisco')
         const category = "cisco"
 
         const { posts, error, load } = getPosts(category)

@@ -24,7 +24,7 @@ export default {
     setup() {
         const pageTitle = ref('About')
         const titleTag = ref('...seeking happy paths')
-        const img = ref('bg-home')
+        const img = ref('bg-about')
 
         return {pageTitle, titleTag, img}
     }
