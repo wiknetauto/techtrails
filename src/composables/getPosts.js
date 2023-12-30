@@ -7,7 +7,7 @@ const getPosts = (category) => {
     const load = async () => {
         try {
             console.log(category);
-            let data = await fetch("http://localhost:3000/" + category);
+            let data = await fetch("http://localhost:8080/" + category);
             console.log(data.ok);
             if (!data.ok) {
                 throw Error("no data available");
