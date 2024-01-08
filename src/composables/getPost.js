@@ -6,7 +6,9 @@ const getPost = (category, id) => {
 
     const load = async () => {
         try {
-            let data = await fetch("http://localhost:8080/" + category + id);
+            let data = await fetch(
+                "http://137.184.13.54:8080/" + category + id
+            );
 
             if (!data.oko) {
                 throw Error("Post not found");
